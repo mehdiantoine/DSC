@@ -101,29 +101,44 @@ img {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
+    .container {
+        width: 80%
+    }
+    
+    .title-header {
+        font-size: 1.2em;
+        background-color: black;
+        color: #ffe63f;
+    }
+    
     .header-main {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        height: 10%;
-        background: linear-gradient(0deg,
+        align-items: center;
+        background: linear-gradient(90deg,
             #ffe63f 0%,
+            #ffe63f 10%,
             black 10%,
+            black 20%,
             #ffe63f 20%,
+            #ffe63f 30%,
             black 30%,
+            black 40%,
             #ffe63f 40%,
+            #ffe63f 50%,
             black 50%,
+            black 60%,
             #ffe63f 60%,
+            #ffe63f 70%,
             black 70%,
+            black 80%,
             #ffe63f 80%,
+            #ffe63f 90%,
             black 90%,
-            #ffe63f 100%
+            black 100%
         );
-        padding: 2% 2%;
-        box-shadow: 0 5px 10px #ffe63f;
-        font-family: 'Ropa Sans', sans-serif;
     }
 
 }
