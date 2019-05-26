@@ -1,0 +1,98 @@
+/*@font-face {*/
+    /*font-family: 'bodegasansblack';*/
+    /*src: url('fonts/BodegaSans_Black.ttf') format('truetype');*/
+    /*/!*font-weight: normal;*/
+    /*font-style: normal;*!/*/
+/*}*/
+
+
+/*font-family: 'Ropa Sans', sans-serif;*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2% auto;
+    width: 40%;
+    max-width: 1200px;
+}
+
+html {
+    font-size: 1.3em;
+    position: relative;
+}
+
+body {
+    line-height: 1.4;
+    background-color: black;
+    margin:0;
+    font-family: 'Ropa Sans', sans-serif;
+    background-color: #363636;
+}
+
+img {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.footer-signature {
+    position: absolute;
+    bottom: -50px;
+    left: 30%;
+    color: paleturquoise;
+}
+
+.title-main {
+    font-size: 2em;
+    color: #2554C7;
+}
+
+/***********-HEADER-*************/
+
+.title-header {
+    font-size: 1.3em;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    background: linear-gradient(120deg, #ffe63f 0%, #ffe63f 50%, black 50%, black 100%);
+    padding: 2% 2%;
+    box-shadow: 0 5px 10px #ffe63f;
+    font-family: 'Ropa Sans', sans-serif;}
+
+.nav-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;;
+}
+
+.nav-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-header a:hover {
+    color: #ffe63f;
+}
+
+/************-SECTION MAIN*****************/
+
+.title-section {
+    background-color: black;
+    color: #ffe63f;
+    width: 35%;
+    padding: 3px
+}
+
+.section-main {
+    margin: 10% 2%;
+    padding: 3%;
+    width: 90%;
+    border-radius: 2%;
+    background-color: floralwhite;
+}
