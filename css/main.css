@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*@font-face {*/
     /*font-family: 'bodegasansblack';*/
     /*src: url('fonts/BodegaSans_Black.ttf') format('truetype');*/
@@ -18,7 +17,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     max-width: 1200px;
 }
 
@@ -28,8 +27,7 @@ html {
 }
 
 body {
-    line-height: 1.4;
-    background-color: black;
+    line-height: 1.5;
     margin:0;
     font-family: 'Ropa Sans', sans-serif;
     background-color: #363636;
@@ -58,10 +56,6 @@ img {
     text-decoration: none;
 }
 
-.title-header {
-    font-size: 1.3em;
-}
-
 .header-main {
     display: flex;
     flex-direction: row;
@@ -75,12 +69,17 @@ img {
 
 .header-inner {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .logo {
-    width: 10%;
+    width: 11%;
+}
+
+.title-header {
+    margin: 0 2%;
+    font-size: 1.3em;
+    align-self: center;
 }
 
 .nav-header {
@@ -102,8 +101,8 @@ img {
 
 .title-section {
     background-color: black;
+    text-decoration: underline;
     color: #ffe63f;
-    width: 35%;
     padding: 3px
 }
 
@@ -113,6 +112,15 @@ img {
     width: 70%;
     border-radius: 2%;
     background-color: floralwhite;
+}
+
+.item-inner {
+    line-height: 2em;
+
+}
+
+.item-inner li{
+    list-style: none;
 }
 
 /***********-ASIDE MAIN-*********************/
@@ -127,8 +135,15 @@ img {
     background-color: floralwhite;
 }
 
+.title-aside {
+    background-color: black;
+    color: #ffe63f;
+    padding: 1px;
+
+}
+
 .text-aside {
-    font-size: .8em;
+    font-size: .9em;
 }
 
 /************-RESPONSIVE-********************/
@@ -138,215 +153,38 @@ img {
     .container {
         width: 80%
     }
-    
+
     .title-header {
         font-size: 1.2em;
         background-color: black;
         color: #ffe63f;
     }
-    
+
     .header-main {
         display: flex;
         flex-direction: column;
         align-items: center;
         background: linear-gradient(90deg,
-            #ffe63f 0%,
-            #ffe63f 10%,
-            black 10%,
-            black 20%,
-            #ffe63f 20%,
-            #ffe63f 30%,
-            black 30%,
-            black 40%,
-            #ffe63f 40%,
-            #ffe63f 50%,
-            black 50%,
-            black 60%,
-            #ffe63f 60%,
-            #ffe63f 70%,
-            black 70%,
-            black 80%,
-            #ffe63f 80%,
-            #ffe63f 90%,
-            black 90%,
-            black 100%
+        #ffe63f 0%,
+        #ffe63f 10%,
+        black 10%,
+        black 20%,
+        #ffe63f 20%,
+        #ffe63f 30%,
+        black 30%,
+        black 40%,
+        #ffe63f 40%,
+        #ffe63f 50%,
+        black 50%,
+        black 60%,
+        #ffe63f 60%,
+        #ffe63f 70%,
+        black 70%,
+        black 80%,
+        #ffe63f 80%,
+        #ffe63f 90%,
+        black 90%,
+        black 100%
         );
     }
-
-=======
-/*@font-face {*/
-    /*font-family: 'bodegasansblack';*/
-    /*src: url('fonts/BodegaSans_Black.ttf') format('truetype');*/
-    /*/!*font-weight: normal;*/
-    /*font-style: normal;*!/*/
-/*}*/
-
-
-/*font-family: 'Ropa Sans', sans-serif;*/
-
-
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    width: 60%;
-    max-width: 1200px;
-}
-
-html {
-    font-size: 1.3em;
-    position: relative;
-}
-
-body {
-    line-height: 1.4;
-    background-color: black;
-    margin:0;
-    font-family: 'Ropa Sans', sans-serif;
-    background-color: #363636;
-}
-
-img {
-    max-width: 1000px;
-    width: 100%;
-}
-
-.footer-signature {
-    position: absolute;
-    bottom: -50px;
-    left: 30%;
-    color: paleturquoise;
-}
-
-.title-main {
-    font-size: 2em;
-    color: #2554C7;
-}
-
-/***********-HEADER-*************/
-
-.home-header {
-    text-decoration: none;
-}
-
-.title-header {
-    font-size: 1.3em;
-}
-
-.header-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 10%;
-    background: linear-gradient(120deg, #ffe63f 0%, #ffe63f 50%, black 50%, black 100%);
-    padding: 2% 2%;
-    box-shadow: 0 5px 10px #ffe63f;
-    font-family: 'Ropa Sans', sans-serif;
-}
-
-.header-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.logo {
-    width: 50%;
-}
-
-.nav-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;;
-}
-
-.nav-header a {
-    color: white;
-    text-decoration: none;
-}
-
-.nav-header a:hover {
-    color: #ffe63f;
-}
-
-/************-SECTION MAIN*****************/
-
-.title-section {
-    background-color: black;
-    color: #ffe63f;
-    width: 35%;
-    padding: 3px
-}
-
-.section-main {
-    margin: 10% 2%;
-    padding: 3%;
-    width: 70%;
-    border-radius: 2%;
-    background-color: floralwhite;
-}
-
-/***********-ASIDE MAIN-*********************/
-
-.aside-main {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 10% 2%;
-    padding: 3%;
-    border-radius: 2%;
-    background-color: floralwhite;
-}
-
-.text-aside {
-    font-size: .8em;
-}
-
-/************-RESPONSIVE-********************/
-
-@media screen and (max-width: 800px) {
-
-    .container {
-        width: 80%
-    }
-    
-    .title-header {
-        font-size: 1.2em;
-        background-color: black;
-        color: #ffe63f;
-    }
-    
-    .header-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: linear-gradient(90deg,
-            #ffe63f 0%,
-            #ffe63f 10%,
-            black 10%,
-            black 20%,
-            #ffe63f 20%,
-            #ffe63f 30%,
-            black 30%,
-            black 40%,
-            #ffe63f 40%,
-            #ffe63f 50%,
-            black 50%,
-            black 60%,
-            #ffe63f 60%,
-            #ffe63f 70%,
-            black 70%,
-            black 80%,
-            #ffe63f 80%,
-            #ffe63f 90%,
-            black 90%,
-            black 100%
-        );
-    }
-
->>>>>>> origin/master
 }
