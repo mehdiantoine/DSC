@@ -60,7 +60,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 10%;
+    height: 8%;
     background: linear-gradient(120deg, #ffe63f 0%, #ffe63f 50%, black 50%, black 100%);
     padding: 2% 2%;
     box-shadow: 0 5px 10px #ffe63f;
@@ -115,13 +115,9 @@ img {
     background-color: floralwhite;
 }
 
-.item-inner {
-    line-height: 2em;
-
-}
-
-.item-inner li{
-    list-style: none;
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
 }
 
 /***********-ASIDE MAIN-*********************/
@@ -151,18 +147,35 @@ img {
 
 @media screen and (max-width: 800px) {
 
+    html{
+        line-height: 1.1em;
+    }
+
     .container {
         width: 80%
     }
 
+    .logo {
+        width: 30%;
+    }
+    
     .title-header {
-        font-size: 1.2em;
+        font-size: .8em;
         background-color: black;
         color: #ffe63f;
+        padding: 2px;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .header-inner {
+        flex-direction: row;
     }
 
     .header-main {
-        display: flex;
         flex-direction: column;
         align-items: center;
         background: linear-gradient(90deg,
@@ -188,4 +201,25 @@ img {
         black 100%
         );
     }
+
+    .nav-header a:hover{
+        color: floralwhite;
+    }
+
+    .nav-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .nav-header a{
+        font-size: .4em;
+        align-self: center;
+        text-align: center;
+        background-color: black;
+        color: #ffe63f;
+        padding: 3px;
+    }
+
 }
