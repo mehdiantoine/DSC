@@ -85,7 +85,8 @@ img {
 .nav-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .nav-header a {
