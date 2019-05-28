@@ -104,6 +104,7 @@ img {
 .title-section {
     background-color: black;
     text-decoration: underline;
+    text-align: center;
     color: #ffe63f;
     padding: 3px
 }
