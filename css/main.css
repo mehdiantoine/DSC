@@ -106,7 +106,8 @@ img {
     text-decoration: underline;
     text-align: center;
     color: #ffe63f;
-    padding: 3px
+    padding: 3px;
+    width : 100%;
 }
 
 .section-main {
