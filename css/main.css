@@ -62,7 +62,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     height: 8%;
-    background: linear-gradient(120deg, #ffe63f 0%, #ffe63f 50%, black 50%, black 100%);
+    background: linear-gradient(140deg, #ffe63f 0%, #ffe63f 50%, black 50%, black 100%);
     padding: 2% 2%;
     box-shadow: 0 5px 10px #ffe63f;
     font-family: 'Ropa Sans', sans-serif;
@@ -103,10 +103,9 @@ img {
 
 .title-section {
     background-color: black;
-    text-decoration: underline;
     text-align: center;
     color: #ffe63f;
-    padding: 3px
+    padding: 3px;
 }
 
 .section-main {
