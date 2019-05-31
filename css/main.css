@@ -102,7 +102,7 @@ img {
     transition-duration: 200ms
 }
 
-/************-SECTION MAIN*****************/
+/************-SECTION MAIN**************/
 
 .title-section {
     background-color: black;
@@ -124,15 +124,32 @@ img {
     font-size: .9em;
 }
 
-/***********-ARTICLES-******************/
+/***********-CONTACT-*******************/
 
-.title-item {
-    background-color: black;
-    color: #ffe63f;
-    font-size: 1.1em;
-    width: 60%;
-    padding: 1px;
-    text-align: center;
+.section-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10% 2%;
+    padding: 3%;
+    border-radius: 2%;
+    background-color: floralwhite;
+}
+
+.contact-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-inner li{
+    list-style: none;
+    font-size: .9em;
+}
+
+.logo-contact {
+    width: 33%;
 }
 
 /***********-ASIDES-********************/
@@ -149,11 +166,10 @@ img {
 }
 
 .title-aside {
-    background-color: black;
-    color: #ffe63f;
+    background-color: #ffe63f;
+    color: black;
     padding: 1px;
     font-size: 1em;
-    text-align: center;
 }
 
 .text-aside {
