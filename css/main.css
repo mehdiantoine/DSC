@@ -14,11 +14,14 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
     margin: 0 auto;
     width: 75%;
     max-width: 1200px;
+}
+
+.section-inner {
+    display: flex;
+    flex-direction: row;
 }
 
 html {
@@ -102,6 +105,16 @@ img {
     transition-duration: 200ms
 }
 
+/************-SLIDER-*******************/
+
+.slider {
+    width: 60%;
+    margin: 10% 2%;
+    padding: 3%;
+    border-radius: 2%;
+    background-color: floralwhite;
+}
+
 /************-SECTION MAIN**************/
 
 .title-section {
@@ -112,11 +125,16 @@ img {
 }
 
 .section-main {
-    width: 70%;
-    margin: 10% 2%;
+    width: 100%;
+    margin: 2% 2%;
     padding: 3%;
     border-radius: 2%;
     background-color: floralwhite;
+}
+
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .description {
