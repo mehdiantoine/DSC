@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
     max-width: 1200px;
 }
 
@@ -112,9 +112,9 @@ img {
 }
 
 .section-main {
+    width: 70%;
     margin: 10% 2%;
     padding: 3%;
-    width: 70%;
     border-radius: 2%;
     background-color: floralwhite;
 }
@@ -124,7 +124,7 @@ img {
     font-size: .9em;
 }
 
-/***********-ARTICLE-************************/
+/***********-ARTICLES-******************/
 
 .title-item {
     background-color: black;
@@ -132,13 +132,15 @@ img {
     font-size: 1.1em;
     width: 60%;
     padding: 1px;
+    text-align: center;
 }
 
-/***********-ASIDE MAIN-*********************/
+/***********-ASIDES-********************/
 
 .aside-main {
     display: flex;
     flex-direction: column;
+    align-self : flex-start;
     border-radius: 2%;
     background-color: floralwhite;
     width: 30%;
@@ -158,7 +160,27 @@ img {
     font-size: .9em;
 }
 
-/************-RESPONSIVE-********************/
+/************-PRECOURSE-***************/
+
+.section-precourse {
+    width: 90%;
+    margin: 10% 2%;
+    padding: 3%;
+    border-radius: 2%;
+    background-color: floralwhite;
+}
+
+.title-precourse {
+    background-color: black;
+    color: #ffe63f;
+    font-size: 1.3em;
+    width: 60%;
+    padding: 1px;
+    text-align: center;
+    align-self: center;
+}
+
+/************-RESPONSIVE-**************/
 
 @media screen and (max-width: 800px) {
 
