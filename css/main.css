@@ -302,6 +302,10 @@ img {
     }
     
     .slider {
-        width: 100%;
+        width: 100%
+    }
+
+    .section-inner {
+        display: block;
     }
 }
