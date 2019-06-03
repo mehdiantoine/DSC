@@ -293,4 +293,15 @@ img {
         padding: 3px;
     }
 
+    .section-flex {
+        display: block;
+    }
+    
+    .aside-main {
+        width: 100%;
+    }
+    
+    .slider {
+        width: 100%;
+    }
 }
