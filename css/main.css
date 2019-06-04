@@ -214,6 +214,23 @@ img {
     align-self: center;
 }
 
+.controler {
+    display: flex;
+    flex-direction: row;
+}
+
+#fw_btn {
+    width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
+#bw_btn {
+    width: 50%;
+    height: auto;
+    margin: 2%;
+}
+
 /************-CONTACT-*****************/
 
 .social {
