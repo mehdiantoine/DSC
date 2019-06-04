@@ -3,8 +3,9 @@
 var onDocumentLoaded = function () {
 
     var timer, figure, image, image_index;
-    figure = document.getElementById('slider');
-    image = figure.querySelector('img');
+
+    figure      = document.getElementById('slider');
+    image       = figure.querySelector('img');
     image_index = 0;
 
     var images = [
@@ -24,17 +25,21 @@ var onDocumentLoaded = function () {
     var pictureForward = function () {
         //itération de chacune des images
         image_index++;
+
         //SI itération dépasse taille du tableau 'images' -> retour à zéro de l'index
         if(image_index > images.length) {
             image_index = 0;
         }
+
         //affichage
         display();
     };
 
     timer = setInterval(pictureForward, 2500);
+
     if (image_index > images.length) {
         clearInterval(timer); // remise à zéro du compteur
+
         image_index = 0;
     }
 };
