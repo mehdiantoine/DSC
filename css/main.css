@@ -214,6 +214,15 @@ img {
     align-self: center;
 }
 
+/************-CONTACT-*****************/
+
+.social {
+
+    font-family: 'Ropa Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
 /************-RESPONSIVE-**************/
 
 @media screen and (max-width: 800px) {
@@ -231,11 +240,11 @@ img {
     }
     
     .title-header {
-        font-size: .8em;
+        font-size: 1.1em;
         background-color: black;
         color: #ffe63f;
         padding: 2px;
-
+        margin: 0 5%;
     }
 
     .hidden {
@@ -307,5 +316,9 @@ img {
 
     .section-inner {
         display: block;
+    }
+
+    .description {
+        font-size: .8em
     }
 }
